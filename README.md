@@ -1,24 +1,33 @@
 # How to Use
 
-There two ways to run this program.
+There two ways to run this program. Both are explained below
 
-1. Drag & drop .dll files from mods that you want to modify
+#### Drag&Drop
 
-2. Provide file names and their path if they are in different directory as arguments in terminal, ex. ``vplusiscompatbile.exe MyMod.dll MyMod2.dll``
+1. Copy the mods from which you want to remove incompatibility into separate directory
+2. Move this program to the same directory you created above
+3. Drag & Drop all mods (.dll files) onto this program ``valheimplusiscompatible.exe``
+4. After the program finishes it's tasks you can move the mods back to your game's mod directory. Make sure to replace any mods you are asked to replace.
 
-It is recommended to first move or copy .dll files from mods to the same directory where you have this program.
+#### Command Line
+
+1. Copy the mods from which you want to remove incompatibility into separate directory
+2. Move this program to the same directory you created above
+3. Open the terminal inside the directory
+4. Run the program and provide names of all the files **with** extension. ex. ``vplusiscompatbile.exe MyMod.dll MyMod2.dll``
+5. After the program finishes it's tasks you can move the mods back to your game's mod directory. Make sure to replace any mods you are asked to replace.
 
 ## Disclaimer
 
-I do not take responsibility for any issues as explained in License, it's up to you to use this software as it's intended to be used!
+I do not take responsibility for any issues that may come from using this program incorrectly.
 
 ### Contact
 
-If the software doesn't work as intended create a new issue.
+If the software doesn't work as intended, please create a new issue.
 
-If you have question you can find me on Discord(@canexione) or send me an email at <canexione@gmail.com>
+If you have questions you can find me on Discord(@canexione) or send me an email at <canexione@gmail.com>
 
-Windows and your browser might show a pop-up that this software is not safe. It's a safety feature which gets trigerred because it's an unknown file with no certificate, the software is safe and you can check the code yourself here on [Github](https://github.com/canexione/vplusiscompatible)
+Windows and your browser might show a pop-up that this software is not safe. It's a safety feature which gets trigerred because it's an unknown file with no certificate, the software is safe and you can check the code yourself here on Github
 
 ### How to build
 
