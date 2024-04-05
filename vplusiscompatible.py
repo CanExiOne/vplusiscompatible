@@ -7,7 +7,7 @@ import shutil
 from contextlib import redirect_stdout
 import logging
 
-github = "https://github.com/canexione/vplusiscompatible"
+github = "https://github.com/puszkapotato/vplusiscompatible"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -18,7 +18,7 @@ logging.basicConfig(
     ]
 )
 
-print("Created by CanExiOne, download this software only from GitHub for safety reasons! " + github)
+print("Created by PuszkaPotato, download this software only from GitHub for safety reasons! " + github)
 
 # Assign files from arguments to list
 files = sys.argv[1:]
